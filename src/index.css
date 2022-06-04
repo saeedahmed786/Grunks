@@ -1,0 +1,315 @@
+body {
+  margin: 0px !important;
+  padding: 0px;
+  width: 100%;
+  overflow-x: hidden !important;
+  line-height: inherit !important;
+  /* background: #0D0D0D 0% 0% no-repeat padding-box; */
+  height: 100vh !important;
+  overflow-y: hidden !important;
+}
+
+body .App {
+  height: 100vh !important;
+  overflow-y: hidden !important;
+}
+
+a {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'evol';
+  src: local('evol'), url('./font/EVOL____.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: local('poppins'), url('./font/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'hardcore';
+  src: local('hardcore'), url('./font/hardcore_pen_regular.ttf') format('truetype');
+}
+
+.home header {
+   color: white;
+   font-family: 'evol';
+   padding-top: 6px;
+   -webkit-background-size: cover;
+   -moz-background-size:  cover;
+   -o-background-size: cover;
+   background-size: contain;
+   /* background-attachment: scroll; */
+   background-position: center !important;
+  }
+
+.home header .left a {
+   background: none;
+   border: none;
+   font-weight: 400;
+   font-size: 12px;
+   color: white;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.home button:focus {
+  box-shadow: none;
+}
+
+.home button {
+  color: white;
+}
+
+.home .right {
+  background-repeat: no-repeat;
+  background-size: contain;    
+  height: 60px;   
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home header .right button:hover {
+  color: white;
+}
+
+.home header p {
+  font-size: 14px;
+  margin-top: 1px;
+  margin-left: 43px;
+}
+
+.home header p span {
+  font-family: 'hardcore';
+  font-size: 32px;
+  vertical-align: middle !important;
+}
+
+.home .logo-cont p span {
+    font-family: 'hardcore';
+    font-size: 32px;
+}
+
+.home main .logo {
+  width: 36%;
+  height: 230px;
+}
+
+.home main > div {
+  font-family: 'evol';
+  position: absolute;
+  width: 100%;
+  top: 80px;
+}
+
+.home main .text-under-logo {
+  color: #FF314D;
+  font-size: 15px;
+  bottom: 23px;
+  position: absolute !important;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.home .center-box {
+  background: #373737 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  width: 410px;
+  margin: 0px auto !important;
+  padding: 23px;
+  font-family: 'poppins' !important;
+  color: #FFFFFF;
+  font-size: 14px;
+  position: relative;
+  z-index: 1000;
+}
+
+.home .center-box img.skull {
+  width: 60px;
+  position: relative;
+  margin-top: -60px;
+}
+
+.home main .center-box .mint {
+   font-family: 'poppins';
+   display: flex;
+   justify-content: space-between;
+   color: #FFFFFF;
+   font-size: 14px;
+   padding-bottom: 23px;
+}
+
+.home main .center-box .columns > div {
+  display: flex;
+  gap: 15px;
+  border: 1px solid #FFFFFF;
+  border-left: none;
+  border-right: none;
+}
+
+.home main .center-box .columns > div .add {
+    font-size: 19px;
+    font-weight: bold;   
+}
+.home main .center-box .columns > div .vertical {
+  border-left: 1px solid #FFFFFF;
+  min-height: 10px;
+}
+
+.home main .center-box .columns > div .btn-container {
+  display: flex;
+  gap: 4px;
+}
+
+.home main .center-box .columns > div .btn-container .btn{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 17px;
+  color: #000000;
+  font-weight: bold;
+  padding: 0px 10px;
+}
+
+.home main .center-box .columns .total {
+  border-bottom: 1px solid #FFFFFF !important;
+  border-top: 0px !important;
+  padding: 10px 0px;
+}
+
+.home main .center-box .mint-btn {
+   height: 100px;
+} 
+
+.home main .center-box .mint-btn button:hover {
+  color: white;
+} 
+
+.home main .center-box .mint-btn img {
+   width: 70%;
+   height: 80px;
+} 
+
+.home main .center-box .mint-btn span {
+   z-index: 1000 !important;
+   position: absolute;
+   left: 52%;
+   transform: translate(-50%, 0);
+   bottom: 47px;
+   font-size: 28px;
+   font-family: 'evol';
+} 
+
+footer p {
+  color: white;
+}
+
+footer p.erc {
+  font-family: 'poppins';
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+footer p.primary-sales {
+  font-family: 'evol';
+  margin-bottom: 0px !important;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+footer p.primary-sales span {
+  color: #FF314D;
+}
+
+footer p span.percent {
+  font-family: 'hardcore';
+  font-size: 32px;
+  vertical-align: middle !important;
+  color: white;
+}
+
+footer p.primary-sales2 {
+  font-family: 'hardcore' !important;
+  font-size: 36px !important;
+  font-weight: lighter;
+}
+
+@media (max-width: 420px) {
+  .home {
+    overflow-x: hidden !important;
+  }
+
+  body .App {
+    height: 136vh !important;
+  }
+  
+  .home header {
+     height: 160px !important;
+     background-size: 800px auto !important;
+     padding: 0px !important;
+     padding-top: 28px !important;
+  }
+  .home .right {
+    width: 236px !important;
+  }
+   .home p.text-under-logo {
+      top: 160px;
+   }
+
+   .home .logo-cont .logo {
+      width: 100%;
+   }
+
+   .home main .center-box .columns > div {
+     justify-content: space-between;
+   }
+
+   .home main .center-box .columns > div .amount {
+     justify-content: space-between !important;
+     gap: 100px !important;
+   }
+
+   .home main .center-box .columns > div .menu {
+     width: 23px !important;
+   }
+
+   .home .center-box {
+     margin-top: 30px !important;
+     width: 95% !important;
+    }
+
+    .home main .center-box .mint-btn img {
+      width: 200px !important;
+      height: 110px;
+   } 
+
+   .home main .center-box .mint-btn span {
+      left: 50%;
+      transform: translate(-50%, 0);
+      bottom: 32px;
+   }
+
+    footer {
+      bottom: -347px;
+      padding: 23px;
+    }
+
+    footer p {
+      margin-right: 0px;
+    }
+
+}
+
+
+@media (min-width: 2200px) {
+  .App {
+    width: 2200px !important;
+    margin: 0px auto !important;
+    position: relative !important;
+  }
+}
