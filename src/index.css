@@ -10,7 +10,7 @@ body {
 }
 
 body .App {
-  height: 100vh !important;
+  height: 136vh !important;
   overflow-y: hidden !important;
 }
 
@@ -36,7 +36,7 @@ a {
 .home header {
    color: white;
    font-family: 'evol';
-   padding-top: 6px;
+   padding-top: 15px;
    -webkit-background-size: cover;
    -moz-background-size:  cover;
    -o-background-size: cover;
@@ -239,13 +239,21 @@ footer p.primary-sales2 {
   font-weight: lighter;
 }
 
-@media (max-width: 420px) {
-  .home {
-    overflow-x: hidden !important;
+@media (max-width: 1060px) {
+  body {
+    height: 130vh !important;
+    overflow: auto !important;
   }
 
   body .App {
-    height: 136vh !important;
+    height: 130vh !important;
+    overflow: auto !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .home {
+    overflow-x: hidden !important;
   }
   
   .home header {

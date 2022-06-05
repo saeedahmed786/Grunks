@@ -1,10 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { TimerCountDown } from './TimerCountDown'
 
 export const Header = () => {
     return (
-        <header style={{ background: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(' + '/assets/header.png' + ')', height: '375px' }}>
+        <header style={{ background: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(' + '/assets/gruncks-banner.gif' + ')', height: '375px' }}>
             <div className='d-flex justify-content-between mx-4 mx-md-5'>
                 <div className='left'>
                     <div className='d-flex'>
