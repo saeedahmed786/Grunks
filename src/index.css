@@ -279,7 +279,7 @@ footer p.primary-sales2 {
 
    .home main .center-box .columns > div .amount {
      justify-content: space-between !important;
-     gap: 100px !important;
+     gap: 15px !important;
    }
 
    .home main .center-box .columns > div .menu {
