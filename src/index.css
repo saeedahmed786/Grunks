@@ -4,9 +4,10 @@ body {
   width: 100%;
   overflow-x: hidden !important;
   line-height: inherit !important;
-  /* background: #0D0D0D 0% 0% no-repeat padding-box; */
+  background: #0D0D0D 0% 0% no-repeat padding-box;
   height: 100vh !important;
   overflow-y: hidden !important;
+  margin: 0px !important;
 }
 
 body .App {
@@ -95,8 +96,8 @@ a {
 }
 
 .home main .logo {
-  width: 36%;
-  height: 230px;
+  width: 60% !important;
+  height: 260px;
 }
 
 .home main > div {
@@ -109,7 +110,7 @@ a {
 .home main .text-under-logo {
   color: #FF314D;
   font-size: 15px;
-  bottom: 23px;
+  bottom: 28px;
   position: absolute !important;
   left: 50%;
   transform: translate(-50%, 0);
@@ -120,7 +121,8 @@ a {
   border-radius: 28px;
   width: 410px;
   margin: 0px auto !important;
-  padding: 23px;
+  padding: 19px;
+  padding-bottom: 2px;
   font-family: 'poppins' !important;
   color: #FFFFFF;
   font-size: 14px;
@@ -197,7 +199,7 @@ a {
    position: absolute;
    left: 52%;
    transform: translate(-50%, 0);
-   bottom: 47px;
+   bottom: 28px;
    font-size: 28px;
    font-family: 'evol';
 } 
@@ -224,6 +226,12 @@ footer p.primary-sales {
 
 footer p.primary-sales span {
   color: #FF314D;
+}
+
+footer p.primary-sales a {
+  color: #FF314D;
+  text-decoration: none;
+  font-size: 36px;
 }
 
 footer p span.percent {
@@ -270,7 +278,8 @@ footer p.primary-sales2 {
    }
 
    .home .logo-cont .logo {
-      width: 100%;
+      width: 100% !important;
+      height: 230px !important;
    }
 
    .home main .center-box .columns > div {
@@ -293,13 +302,13 @@ footer p.primary-sales2 {
 
     .home main .center-box .mint-btn img {
       width: 200px !important;
-      height: 110px;
+      height: 90px;
    } 
 
    .home main .center-box .mint-btn span {
       left: 50%;
       transform: translate(-50%, 0);
-      bottom: 32px;
+      bottom: 23px;
    }
 
     footer {

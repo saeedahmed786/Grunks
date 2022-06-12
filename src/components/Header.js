@@ -12,7 +12,7 @@ export const Header = () => {
                             <br />
                             <img src='/assets/lineUnderOpenSea.svg' alt='Line' />
                         </div>
-                        <div className='mt-3 d-none d-sm-block'>
+                        <div className='mt-4 d-none d-sm-block'>
                             <a href='https://objkt.com/collection/KT19QrZvpKD2XFkd4iqisXmf8iUSmuJrKZPd' target='_blank'>FUNCKS</a>
                             <br />
                             <img src='/assets/funcks.png' alt='Line' />

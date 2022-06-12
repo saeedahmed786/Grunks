@@ -18,9 +18,9 @@ export const Home = () => {
                     </div>
                     <CenterBox />
                     <footer className='tex-center'>
-                        <p className='erc'>*ERC-721a contract: low gas</p>
+                        <p className='erc mb-1'>*ERC-721a contract: low gas</p>
                         <p className='primary-sales mt-0 mb-0'><span className='percent'>5%</span> of total primary sales</p>
-                        <p className='primary-sales primary-sales2'>will go straight to <span>xcopy's grifter fund</span></p>
+                        <p className='primary-sales primary-sales2'>will go straight to <span><a href='https://app.endaoment.org/grifter' target="_blank">xcopy's grifter fund</a></span></p>
                     </footer>
                 </div>
             </main>
